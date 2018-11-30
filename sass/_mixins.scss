@@ -1,0 +1,22 @@
+@mixin bubba{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@mixin padthing{
+    font-size: 1rem;
+    padding: 0.2rem 2rem 2rem;
+}
+
+@mixin thing {
+    width: 700px;
+    margin: 0 auto;
+}
+
+@mixin media3 {
+    @media all and (min-width: 1401px){
+        @content;
+    }
+}
